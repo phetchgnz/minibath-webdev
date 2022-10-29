@@ -5,8 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>minimalizt mini html project</title>
+
+    <style>
+        body{
+            background: #3b3b3b;
+        }
+
+        .header{
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar-text{
+            color: white;
+            height: 20px;
+            width: 80px;
+            padding-top: 65px;
+            padding-inline: 10px;
+            font-weight: bold;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: none;
+        }
+        .navbar-text:hover{
+            color:blanchedalmond;
+            cursor: pointer;
+        }
+
+        .end{
+            justify-content: end;
+        }
+
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+        }
+
+        .second-text{
+            color: white;
+            font-family: sans-serif;
+            margin: 0px;
+
+        }
+
+        p{
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+            width: 520px;
+        }
+        .right{
+            color:white;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            margin-left: 1030px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="header">
+        <img src="src/MINI Logo-white.png" height="150px">
+        <a href="https://www.facebook.com/phetchgnz" class="navbar-text" target="_blank">Profile</a>
+        <a href="https://www.youtube.com/channel/UCFp8s6SSjKCev4uAPssf9Dw" class="navbar-text" target="_blank">Youtube</a>
+        <a href="https://github.com/" class="navbar-text" target="_blank">Github</a>
+    </div>
+    <div class="center">
+        <h1 class="second-text">MINIMALIZT</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, totam provident? Facilis natus autem architecto? Distinctio harum sequi ad quo laudantium. A, beatae nemo? Praesentium eius provident in voluptate iusto!</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/h5DKS9JgIRQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <h4 class="right">Date : October 30, 2022</h4>
 </body>
 </html>
