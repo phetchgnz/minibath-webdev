@@ -7,11 +7,13 @@
     <title>Document</title>
 
     <style>
-        .Header{
-            background-color: rgba(10, 7, 7, 0.858);
+        .HeadText{
+            max-width: 100%;
+            margin: 0 auto;
+            border: 10px solid red;
+            font-size: 100px;
             color: white;
-            padding:100px;
-            text-align: center;
+            display: flex;
         
         }
 
@@ -20,31 +22,48 @@
             text-decoration: none;
             font-size: 30px;
             padding: 30px;
-            text-align: center;
+            
 
         }
 
         body{
-            background-color: rgba(10, 7, 7, 0.858);
+            background-color: rgb(2, 8, 3);
         }
         
+        .text{
+            color: white;
+            font-size: 20px;
+            max-width: 1000px;
+            margin:  0 auto;
+            text-align: center;
+        }
+        
+        .Icon{
+            width: 50px;
+            height: 50px;
+            
+        }
+
         
     </style>
 
 </head>
 <body>
-
-    <div class="Header">
-        <img class="Picture" width="250px" height="250px" src="picture/SoundBaht.png" alt="">
-        <h1>SoundBaht</h1>
+    <div class="HeadText">
+        <img width="250px" height="250px" src="picture/SoundBaht.png" alt="">  
+        <b> SoundBaht</b>
         
+        <a class="icon" href="https://www.twitch.tv/soundbaht">
+            <img class="Icon" src= "Picture/twitch.png" alt="">
+            </a>
     </div>
     
-        <div class="Menu">   
-                <b><a class="Menu" title="Go to home page" href="Homepage.html">Home</a></b>
-                <b><a class="Menu" title="Go to portfolio page" href="Portfolio.html">Portfolio</a></b> 
-                <b><a class="Menu" title="Go to about me page" href="AboutMe.html">About Me</a> </b>
-        </div> 
+
+    <br>
+    <br>
+    <div class="text">
+        <p class="text">SoundBaht, Hello my name is Ken Chirayu Norkaew i'm 20 years old </p>
+    </div>
 
 </body>
 </html>
