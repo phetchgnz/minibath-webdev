@@ -7,63 +7,71 @@
     <title>Document</title>
 
     <style>
+               body{
+            background-color: rgb(2, 8, 3);
+        }
+
         .HeadText{
             max-width: 100%;
             margin: 0 auto;
-            border: 10px solid red;
             font-size: 100px;
             color: white;
             display: flex;
-        
-        }
-
-        .Menu{
-            color: white;
-            text-decoration: none;
-            font-size: 30px;
-            padding: 30px;
-            
-
-        }
-
-        body{
-            background-color: rgb(2, 8, 3);
-        }
-        
+            justify-content: center;
+        }      
         .text{
             color: white;
             font-size: 20px;
             max-width: 1000px;
             margin:  0 auto;
             text-align: center;
+        }  
+        .Icon{
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
         }
         
-        .Icon{
-            width: 50px;
-            height: 50px;
-            
+        .video{
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
         }
 
-        
     </style>
 
 </head>
 <body>
     <div class="HeadText">
         <img width="250px" height="250px" src="picture/SoundBaht.png" alt="">  
-        <b> SoundBaht</b>
-        
-        <a class="icon" href="https://www.twitch.tv/soundbaht">
-            <img class="Icon" src= "Picture/twitch.png" alt="">
-            </a>
+    </div>
+
+    <div class="Icon">
+        <p><a class="icon"href="https://www.twitch.tv/soundbaht">
+            <img class="Icon" width="50px" height="50px" src= "Picture/twitch.png" alt="">
+            </a></p>
+            
+        <p><a class="icon"href="https://www.facebook.com/profile.php?id=100001933167950">
+            <img class="Icon" width="50px" height="50px" src= "Picture/facebook-logo-13.png" alt="">
+            </a></p>
+    
+        <p><a class="icon"href="https://www.youtube.com/channel/UCkoDkBE0bi6aEKKDTAnssBQ">
+            <img class="Icon" width="65px" height="50px" src= "Picture/YT.png" alt="">
+            </a></p>  
     </div>
     
 
-    <br>
-    <br>
+    
+
     <div class="text">
         <p class="text">SoundBaht, Hello my name is Ken Chirayu Norkaew i'm 20 years old </p>
-    </div>
 
+        <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum inventore aspernatur deserunt, aperiam impedit aut placeat vel ea earum molestias suscipit totam similique magnam, non ducimus officia dolores. Consectetur, dignissimos quae fugiat esse quidem molestiae velit temporibus, similique facilis voluptatum asperiores modi deleniti illum provident, vel reprehenderit hic? Culpa?</p>
+        <br>
+        <iframe class="Video" width="560" height="315" src="https://www.youtube.com/embed/NUxnvwQIie4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+    
 </body>
 </html>
