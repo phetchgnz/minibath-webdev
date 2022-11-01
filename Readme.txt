@@ -1,1 +1,0 @@
-This is MINIMALIZT and SOUNDBAHT Github for practicing Web Develope
